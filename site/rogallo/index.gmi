@@ -62,4 +62,4 @@ powershell -ExecutionPolicy ByPass -c "irm https://uvx.sh/rogallo/install.ps1 | 
 Once installed run the rogallo command.
 
 => changelog.gmi Rogallo ChangeLog
-=> /~davep/ Home
+=> ../index.gmi Home

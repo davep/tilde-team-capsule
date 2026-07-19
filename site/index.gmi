@@ -16,4 +16,5 @@ I am currently having a lot of fun developing Rogallo, my Gemini client for the 
 
 However, if you'd prefer to stay in geminispace (and why wouldn't you), here's the Gemini page:
 
-=> rogallo/ Rogallo
+=> rogallo/index.gmi Rogallo
+=> gemtext/index.gmi Gemtext
