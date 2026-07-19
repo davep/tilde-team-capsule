@@ -38,11 +38,23 @@ Other places you'll find me in Geminispace:
 
 ## Software
 
+### Rogallo
+
 I am currently having a lot of fun developing Rogallo, my Gemini client for the terminal. The site for it is here:
 
-=> https://rogallo.davep.dev/
-
-However, if you'd prefer to stay in geminispace (and why wouldn't you), here's the Gemini page:
-
+=> https://rogallo.davep.dev/ Rogallo on the web
 => rogallo/index.gmi Rogallo
+
+### Gemtext
+
+In support of the work on Rogallo, I've written a small Python library for parsing Gemtext content.
+
+=> https://gemtext.davep.dev/ Gemtext on the web
 => gemtext/index.gmi Gemtext
+
+### Wasat
+
+In support of the work on Rogallo, I've developed a Python library that provides an async client for the Gemini protocol.
+
+=> https://wasat.davep.dev/ Wasat on the web
+=> wasat/index.gmi/ Wasat
