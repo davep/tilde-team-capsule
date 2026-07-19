@@ -36,6 +36,11 @@ Other places you'll find me in Geminispace:
 => gemini://bbs.geminispace.org/u/davep
 => gemini://station.martinrue.com/davep
 
+Also related:
+
+=> finger://plan.cat/davep
+=> finger://tilde.team/davep
+
 ## Software
 
 ### Rogallo
