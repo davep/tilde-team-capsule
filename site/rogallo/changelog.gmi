@@ -1,0 +1,226 @@
+# Rogallo ChangeLog
+
+## v0.11.0
+
+Released: 2026-07-19
+
+* Added a `ToggleEmojiRemoval` command to toggle the removal of emoji from the content of a page.
+=> https://github.com/davep/rogallo/pull/181 PR #181
+* Added a `ToggleANSIEscapeSequenceHandling` command to toggle the processing of ANSI escape sequences on and off.
+=> https://github.com/davep/rogallo/pull/181 PR #181
+* Turning off support for ANSI escape sequences now actually strips all sequences.
+=> https://github.com/davep/rogallo/pull/181 PR #181
+* Added the ability to change the in-capsule link icon via the configuration file.
+=> https://github.com/davep/rogallo/pull/182 PR #182
+* Added the ability to change the outwith-capsule link icon via the configuration file.
+=> https://github.com/davep/rogallo/pull/182 PR #182
+* Added the ability to change the list item bullet icon via the configuration file.
+=> https://github.com/davep/rogallo/pull/182 PR #182
+
+## v0.10.0
+
+Released: 2026-07-18
+
+* Added support for an optional maximum document width.
+=> https://github.com/davep/rogallo/pull/164 PR #164
+* Added a link jump progress timeout so numbers typed some time apart don't concatenate.
+=> https://github.com/davep/rogallo/pull/167 PR #167
+* Added `jump_progress_timeout` to the configuration file to control the jump cancellation timeout.
+=> https://github.com/davep/rogallo/pull/167 PR #167
+* If an input to a capsule fails for some reason, and the user tries to post again, the input box is now pre-populated with the failed content for further editing.
+=> https://github.com/davep/rogallo/pull/168 PR #168
+* Added all application commands to the command line too (in `!snake_case` format).
+=> https://github.com/davep/rogallo/pull/169 PR #169
+* Added a `GoToParent` command.
+=> https://github.com/davep/rogallo/pull/173 PR #173
+* Added a `GoToRoot` command.
+=> https://github.com/davep/rogallo/pull/173 PR #173
+* Added support for signifying if a link in a page has been visited before.
+=> https://github.com/davep/rogallo/pull/175 PR #175
+* Made the command-palette-based interfaces for history and bookmarks the primary interfaces, and turned the previous sidebar-based interfaces into secondary "manager" tools.
+=> https://github.com/davep/rogallo/pull/176 PR #176
+
+## v0.9.0
+
+Released: 2026-07-16
+
+* Added syntax highlighting to pre-formatted text blocks.
+=> https://github.com/davep/rogallo/pull/153 PR #153
+* Improved the links "stripe" visibility with various themes.
+=> https://github.com/davep/rogallo/pull/154 PR #154
+* The configuration loading code now filters out settings it doesn't know about.
+=> https://github.com/davep/rogallo/pull/155 PR #155
+* Added an input length display and guardrail to the user input dialog.
+=> https://github.com/davep/rogallo/pull/156 PR #156
+
+## v0.8.0
+
+Released: 2026-07-15
+
+* Fixed command line history not recording and recovering correctly.
+=> https://github.com/davep/rogallo/pull/143 PR #143
+* Added a confirmation step before externally opening unsupported locations or MIME types.
+=> https://github.com/davep/rogallo/pull/144 PR #144
+* Added keyboard shortcuts to the viewer for easily navigating between each of the links, with wrap-around.
+=> https://github.com/davep/rogallo/pull/145 PR #145
+
+## v0.7.0
+
+Released: 2026-07-14
+
+* Fixed a cosmetic issue with the horizontal truncation of the current location as shown in the viewer panel, when it is wider than the viewer.
+=> https://github.com/davep/rogallo/pull/131 PR #131
+* The command line suggestions now also include all hosts found in the trust store.
+=> https://github.com/davep/rogallo/pull/132 PR #132
+* Added known hosts from the trust store to the history search palette.
+=> https://github.com/davep/rogallo/pull/137 PR #137
+* Fixed a cosmetic issue with word-wrapping of the description of a link.
+=> https://github.com/davep/rogallo/pull/141 PR #141
+* Added support for numeric-based quick jumping to links in the viewer.
+=> https://github.com/davep/rogallo/pull/141 PR #141
+* Added a `StripeLinks` command to help alternating links stand out better.
+=> https://github.com/davep/rogallo/pull/141 PR #141
+
+## v0.6.0
+
+Released: 2026-07-12
+
+* Added support for client certificates.
+=> https://github.com/davep/rogallo/pull/106 PR #106
+* Pages opened from in-page links now bypass the cache.
+=> https://github.com/davep/rogallo/pull/106 PR #106
+* Fixed a layout issue with list items.
+=> https://github.com/davep/rogallo/pull/111 PR #111
+* Fixed bookmark search being available when there are no bookmarks to search.
+=> https://github.com/davep/rogallo/pull/112 PR #112
+* Added `connection_timeout` as a configuration option.
+=> https://github.com/davep/rogallo/pull/113 PR #113
+* Added `read_timeout` as a configuration option.
+=> https://github.com/davep/rogallo/pull/113 PR #113
+* Added `maximum_redirects` as a configuration option.
+=> https://github.com/davep/rogallo/pull/113 PR #113
+* When a page needs a client-side certificate to load, a key icon is shown in the viewer's title bar.
+=> https://github.com/davep/rogallo/pull/114 PR #114
+* Pages that need a client-side certificate are now always excluded from the content cache.
+=> https://github.com/davep/rogallo/pull/114 PR #114
+* Fixed the way history is recorded so that "post"-type URIs don't end up dropping into history and potentially resulting in duplicate inputs being sent to capsules.
+=> https://github.com/davep/rogallo/pull/119 PR #119
+
+## v0.5.0
+
+Released: 2026-07-10
+
+* Added the MIME type of the document to the viewer's status bar.
+=> https://github.com/davep/rogallo/pull/70 PR #70
+* Handle showing plain text content without attempting to render it as Gemtext.
+=> https://github.com/davep/rogallo/pull/71 PR #71
+* Added support for working out the type of a local file when the user goes to view it.
+=> https://github.com/davep/rogallo/pull/72 PR #72
+* MIME types that can't be handled are all now handed off to the operating system's web browser.
+=> https://github.com/davep/rogallo/pull/73 PR #73
+* Added the ability to remove individual items from the location history.
+=> https://github.com/davep/rogallo/pull/74 PR #74
+* Added the ability to clear all locations from the location history.
+=> https://github.com/davep/rogallo/pull/74 PR #74
+* Added `home_page` to the configuration file.
+=> https://github.com/davep/rogallo/pull/75 PR #75
+* Added a `GoHome` command.
+=> https://github.com/davep/rogallo/pull/75 PR #75
+* Added a `SetHome` command.
+=> https://github.com/davep/rogallo/pull/75 PR #75
+* Added a `SetHomeToCurrentLocation` command.
+=> https://github.com/davep/rogallo/pull/75 PR #75
+* Added support for bookmarks.
+=> https://github.com/davep/rogallo/pull/78 PR #78
+* Added navigation history, location history and bookmarks as application command line completion suggestions.
+=> https://github.com/davep/rogallo/pull/83 PR #83
+* Added a `SeachHistory` command.
+=> https://github.com/davep/rogallo/pull/86 PR #86
+* Adjacent paragraphs in a Gemini document are now consolidated into a single widget.
+=> https://github.com/davep/rogallo/pull/91 PR #91
+* Cleaned up unnecessary empty lines between quote blocks.
+=> https://github.com/davep/rogallo/pull/92 PR #92
+* When showing a source view of a page, escape sequences are now shown as markup, rather than parsed and rendered.
+=> https://github.com/davep/rogallo/pull/94 PR #94
+* When a document is loaded, the viewer now automatically gains focus.
+=> https://github.com/davep/rogallo/pull/100 PR #100
+* Added shortened versions of history, location history and bookmarks as application command line completion suggestions.
+=> https://github.com/davep/rogallo/pull/103 PR #103
+* Added a content cache for content loaded from remote capsules.
+=> https://github.com/davep/rogallo/pull/104 PR #104
+
+## v0.4.0
+
+Released: 2026-06-28
+
+* Added a `Reload` command.
+=> https://github.com/davep/rogallo/pull/58 PR #58
+* Added a `CopyLocationToClipboard` command.
+=> https://github.com/davep/rogallo/pull/61 PR #61
+* Added a `CopyDocumentToClipboard` command.
+=> https://github.com/davep/rogallo/pull/61 PR #61
+* Added the ability to toggle between a rendered view and a source view.
+=> https://github.com/davep/rogallo/pull/62 PR #62
+* Added support for user input.
+=> https://github.com/davep/rogallo/pull/64 PR #64
+
+## v0.3.0
+
+Released: 2026-06-26
+
+* Added a configuration option to turn off link tooltips.
+=> https://github.com/davep/rogallo/pull/44 PR #44
+* Added a `directories` CLI command to print out the directories used by Rogallo.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `licnece` CLI command to print out the licence details for Rogallo.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `bindings` CLI command to print out the available commands for binding to keys, and their default bindings.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `themes` CLI command to print out the available themes.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `--theme` CLI switch for setting the theme.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `--version` CLI switch to print out the version of Rogallo.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added a `--help` CLI switch to print out the command line help.
+=> https://github.com/davep/rogallo/pull/45 PR #45
+* Added an `open` CLI command that allows a location to be opened from the command line.
+=> https://github.com/davep/rogallo/pull/48 PR #48
+* Added support for working with gemtext files in the local filesystem.
+=> https://github.com/davep/rogallo/pull/49 PR #49
+* Added support for typing scheme-less Gemini URIs into the application's command line.
+=> https://github.com/davep/rogallo/pull/51 PR #51
+* Added `disable_animations` as a configuration option (disables the default Textual animations, for those who might dislike them; which is probably anyone with good taste in terminal applications).
+=> https://github.com/davep/rogallo/pull/52 PR #52
+
+## v0.2.0
+
+Released: 2026-06-24
+
+* Added tooltips to links that show the URI when hovered over with the mouse.
+=> https://github.com/davep/rogallo/pull/23 PR #23
+* Improved the handling of redirected requests.
+=> https://github.com/davep/rogallo/pull/24 PR #24
+* Improved the detection of links.
+=> https://github.com/davep/rogallo/pull/26 PR #26
+* Improved the detection of headings.
+=> https://github.com/davep/rogallo/pull/29 PR #29
+* Improved the detection of quotes.
+=> https://github.com/davep/rogallo/pull/31 PR #31
+* Allowed non-standard list items, that use a tab rather than a space after the `*`.
+=> https://github.com/davep/rogallo/pull/33 PR #33
+* Added a status bar to the viewer widget to show the URI of the currently-selected link.
+=> https://github.com/davep/rogallo/pull/35 PR #35
+
+## v0.1.0
+
+Released: 2026-06-23
+
+* Initial release.
+
+## v0.0.1
+
+Released: 2026-06-18
+
+* Initial placeholder package to test that the name is available in PyPI.
+

@@ -1,0 +1,22 @@
+# davep
+
+## Introduction
+
+Hey, and welcome to my little home in geminispace. Here's where I'll be
+hosting some stuff aimed at being read via `gemini://`.
+
+If you want to find me in the other place, the best place to start is:
+
+=> https://davep.at/
+
+## Software
+
+I am currently having a lot of fun developing Rogallo, my Gemini client for
+the terminal. The site for it is here:
+
+=> https://rogallo.davep.dev/
+
+However, if you'd prefer to stay in geminispace (and why wouldn't you),
+here's the Gemini page:
+
+=> rogallo/ Rogallo
