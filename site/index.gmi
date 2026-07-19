@@ -8,6 +8,11 @@ If you want to find me in the other place, the best place to start is:
 
 => https://davep.at/
 
+Other places you'll find me in Geminispace:
+
+=> gemini://bbs.geminispace.org/u/davep
+=> gemini://station.martinrue.com/davep
+
 ## Software
 
 I am currently having a lot of fun developing Rogallo, my Gemini client for the terminal. The site for it is here:
