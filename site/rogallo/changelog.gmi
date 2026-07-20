@@ -1,5 +1,20 @@
 # Rogallo ChangeLog
 
+## v0.12.0
+
+Released: 2026-07-20
+
+* Added `!theme` as a command line command.
+=> https://github.com/davep/rogallo/pull/186 PR #186
+* Added an `OpenFile` command, which opens a file picker dialog for picking a local file to view.
+=> https://github.com/davep/rogallo/pull/188 PR #188
+* Entering the name of an existing directory in the command line now opens that directory in the file picker dialog.
+=> https://github.com/davep/rogallo/pull/188 PR #188
+* Added a `ToggleCosyLinkNumbers` command, which moves the link jump numbers over to the left of the link text or back to the right.
+=> https://github.com/davep/rogallo/pull/193 PR #193
+* Modified `ToggleEmojiRemoval` so that it *doesn't* remove emojis from pre-formatted text.
+=> https://github.com/davep/rogallo/pull/196 PR #196
+
 ## v0.11.0
 
 Released: 2026-07-19
