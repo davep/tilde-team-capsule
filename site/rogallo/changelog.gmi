@@ -1,5 +1,16 @@
 # Rogallo ChangeLog
 
+## v1.1.1
+
+Released: 2026-07-27
+
+* Added `port79` to the library version list output by the `diagnostics` command.
+=> https://github.com/davep/rogallo/pull/220 PR #220
+* Fixed `cosy_link_jumps` not being loaded from configuration when Rogallo starts up.
+=> https://github.com/davep/rogallo/pull/230 PR #230
+* Fixed viewer status line being lost when `maximum_document_width` is set to something other than `0`.
+=> https://github.com/davep/rogallo/pull/231 PR #231
+
 ## v1.1.0
 
 Released: 2026-07-24
