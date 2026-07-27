@@ -38,6 +38,7 @@ Other places you'll find me in Geminispace:
 
 Also related:
 
+=> gopher://tilde.team/1/~davep/
 => finger://plan.cat/davep
 => finger://tilde.team/davep
 
