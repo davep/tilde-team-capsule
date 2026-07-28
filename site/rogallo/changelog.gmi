@@ -1,5 +1,16 @@
 # Rogallo ChangeLog
 
+## v1.2.0
+
+Released: 2026-07-28
+
+* Added support for the `gopher` protocol.
+=> https://github.com/davep/rogallo/pull/222 PR #222
+* The order of items in the history search now ensures the most recent items come first.
+=> https://github.com/davep/rogallo/pull/234 PR #234
+* Fixed the view source state of the viewer being retained when navigating to a new location.
+=> https://github.com/davep/rogallo/pull/235 PR #235
+
 ## v1.1.1
 
 Released: 2026-07-27
