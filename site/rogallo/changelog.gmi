@@ -1,5 +1,12 @@
 # Rogallo ChangeLog
 
+## v1.2.1
+
+Released: 2026-07-28
+
+* Fixed a crash when encountering a malformed link in a gophermap.
+=> https://github.com/davep/rogallo/pull/245 PR #245
+
 ## v1.2.0
 
 Released: 2026-07-28
