@@ -25,7 +25,7 @@ Rogallo is a Gemini client for the terminal. Developed as a TUI application, wri
 * Persistent user configuration across sessions
 * Fully responsive layout that adjusts dynamically to terminal resizing
 * Supports the `finger` protocol
-* Supports the `gemini` protocol
+* Supports the `gopher` protocol
 
 ## Installation
 
