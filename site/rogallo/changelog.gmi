@@ -1,5 +1,18 @@
 # Rogallo ChangeLog
 
+## v1.4.0
+
+Released: 2026-07-31
+
+* Fixed a crash if an alias had an unknown parameter in its expansion.
+=> https://github.com/davep/rogallo/pull/263 PR #263
+* Made improvements to how hosts are verified, using a hybrid CA falling back to TOFU approach.
+=> https://github.com/davep/rogallo/pull/264 PR #264
+* Added an icon to the top of the viewer to say if a server has been verified via CA or via TOFU.
+=> https://github.com/davep/rogallo/pull/264 PR #264
+* Added a `AboutThisPage` command to show details about the currently-viewed page.
+=> https://github.com/davep/rogallo/pull/266 PR #266
+
 ## v1.3.0
 
 Released: 2026-07-29
