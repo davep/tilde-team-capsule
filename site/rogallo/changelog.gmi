@@ -1,5 +1,18 @@
 # Rogallo ChangeLog
 
+## v1.5.0
+
+Released: 2026-08-05
+
+* Gopher items of type 8 are now turned into `telnet:` URIs.
+=> https://github.com/davep/rogallo/pull/271 PR #271
+* Added a `PipeDocument` command to pipe the "source" of the current document through a shell command or pipeline.
+=> https://github.com/davep/rogallo/pull/272 PR #272
+* Added support for loading and using custom themes.
+=> https://github.com/davep/rogallo/pull/273 PR #273
+* Renamed `bookmarks_visble` to `bookmarks_visible` in the configuration file. Technically a breaking change but mostly not noticeable.
+=> https://github.com/davep/rogallo/pull/275 PR #275
+
 ## v1.4.0
 
 Released: 2026-07-31
