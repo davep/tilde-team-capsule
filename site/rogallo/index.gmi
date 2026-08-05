@@ -4,18 +4,17 @@
 
 Rogallo is a Gemini client for the terminal. Developed as a TUI application, written in Python, and built using the Textual framework. Key features include:
 
+* Support for the gemini protocol
+* Support for the gopher protocol
+* Support for the finger protocol
 * A bookmark facility (with search)
 * A location history facility (with search)
 * A backward/forward navigation facility
-* Support for setting a home page
-* Support for user input (`1x` responses), including masked inputs for sensitive fields
-* Support for in-application generation of self-signed client certificates, with persistent per-capsule management
-* Support for redirections (`3x` responses)
 * Copy-to-clipboard support for URIs or page contents
+* Support for setting a home page
 * Designed to work on macOS, GNU/Linux and Windows (and likely on other operating systems that support modern Python)
 * Mouse support
 * A view source facility
-* A trust-on-first-use (TOFU) trust facility
 * Has in-application help screens
 * Has an easy-to-use command palette
 * Hands unknown MIME types off to the operating system
@@ -24,8 +23,6 @@ Rogallo is a Gemini client for the terminal. Developed as a TUI application, wri
 * Choice of themes
 * Persistent user configuration across sessions
 * Fully responsive layout that adjusts dynamically to terminal resizing
-* Supports the `finger` protocol
-* Supports the `gopher` protocol
 
 ## Installation
 
