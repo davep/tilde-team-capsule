@@ -11,3 +11,4 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 ## Posts
 
 => terminal_bean_soup.gmi 2026-07-17 Terminal bean soup
+=> you_get_what_you_pay_for.gmi 2026-03-10 You get what you pay for
