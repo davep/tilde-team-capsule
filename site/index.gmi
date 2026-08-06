@@ -42,6 +42,12 @@ Also related:
 => finger://plan.cat/davep
 => finger://tilde.team/davep
 
+## Gemlog
+
+I'm slowly duplicating some blog posts from my main blog to here:
+
+=> gemlog/
+
 ## Software
 
 ### Rogallo

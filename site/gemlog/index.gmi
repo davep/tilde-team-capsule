@@ -1,0 +1,13 @@
+# davep
+
+The following is a selection of posts from my main blog.
+
+=> https://blog.davep.org/
+
+I write a *lot* more there; here I'll pull in the less day-to-day pieces.
+
+=> ../ Home
+
+## Posts
+
+=> terminal_bean_soup.gmi 2026-07-17 Terminal bean soup
