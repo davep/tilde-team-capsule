@@ -1,0 +1,8 @@
+# Testing
+
+This directory contains some other types of files to help with testing MIME types and so on.
+
+=> test.md
+=> test.py
+=> test.c
+
