@@ -1,5 +1,18 @@
 # Rogallo ChangeLog
 
+## v1.6.0
+
+Released: 2026-08-08
+
+* Fixed Gopher client not using the configured connection timeout.
+=> https://github.com/davep/rogallo/pull/288 PR #288
+* Added support for the `spartan` protocol.
+=> https://github.com/davep/rogallo/pull/289 PR #289
+* All `text/*` MIME types are now considered to be something that can be displayed within Rogallo.
+=> https://github.com/davep/rogallo/pull/293 PR #293
+* Added optional syntax highlighting when visiting a non-Gemtext/Gopher document whose content can be inferred.
+=> https://github.com/davep/rogallo/pull/296 PR #296
+
 ## v1.5.0
 
 Released: 2026-08-05
