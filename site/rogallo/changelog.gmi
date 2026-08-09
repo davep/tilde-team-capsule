@@ -1,3 +1,5 @@
+=> ../ Home
+# ----------------------------------------------------------------------
 # Rogallo ChangeLog
 
 ## v1.6.0
@@ -339,4 +341,5 @@ Released: 2026-06-23
 Released: 2026-06-18
 
 * Initial placeholder package to test that the name is available in PyPI.
-
+# ----------------------------------------------------------------------
+=> ../ Home

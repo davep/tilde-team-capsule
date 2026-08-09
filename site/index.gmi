@@ -25,16 +25,21 @@
 
 ## Introduction
 
-Hey, and welcome to my little home in geminispace. Here's where I'll be hosting some stuff aimed at being read via `gemini://`.
+Hey, and welcome to my little home in geminispace (and spartanspace too; this is mirrored with `spartan://` URIs too). Here's where I'll be hosting some stuff aimed at being read via `gemini://`.
 
 If you want to find me in the other place, the best place to start is:
 
 => https://davep.at/
 
+My primary blog is also over in the other place.
+
+=> https://blog.davep.org/
+
 Other places you'll find me in Geminispace:
 
-=> gemini://bbs.geminispace.org/u/davep
-=> gemini://station.martinrue.com/davep
+=> gemini://bbs.geminispace.org/u/davep My spot on the GeminiSpace BBS
+=> gemini://station.martinrue.com/davep My spot on Station
+=> gemini://astrobotany.mozz.us/public/ccd9fe566703411fa6065a9935fb6832/m1 My plant in AstroBotany
 
 Also related:
 
@@ -44,15 +49,15 @@ Also related:
 
 ## Gemlog
 
-I'm slowly duplicating some blog posts from my main blog to here:
-
-=> gemlog/
+=> gemlog/ I'm slowly duplicating some blog posts from my main blog.
 
 ## Software
 
+Having "discovered" Gemini and related things in June 2026, and given my love of writing applications for the terminal using the Textual framework, it seemed only natural that I try and write my own small web client. The following are all the related projects that have come out of this.
+
 ### Rogallo
 
-I am currently having a lot of fun developing Rogallo, my Gemini client for the terminal. The site for it is here:
+This is my terminal-based client for the small web. As of the time of writing it supports Gemini, Spartan, Gopher and Finger protocols.
 
 => https://rogallo.davep.dev/ Rogallo on the web
 => rogallo/index.gmi Rogallo
@@ -64,9 +69,30 @@ In support of the work on Rogallo, I've written a small Python library for parsi
 => https://gemtext.davep.dev/ Gemtext on the web
 => gemtext/index.gmi Gemtext
 
+### Port70
+
+Port70 is my async-first, fully type-hinted Python client library for the Gopher protocol.
+
+=> https://port70.davep.dev/ Port70 on the web
+=> port70/index.gmi Port70
+
+### Port79
+
+Port79 is an async-first, fully type-hinted Python client library for the Finger User Information Protocol.
+
+=> https://port79.davep.dev/ Port79 on the web
+=> port79/index.gmi Port79
+
+### Sybaritic
+
+Sybaritic is an async-first, fully type-hinted Python client library for the Spartan Protocol.
+
+=> https://sybaritic.davep.dev/ Sybaritic on the web
+=> sybaritic/index.gmi Sybaritic
+
 ### Wasat
 
-In support of the work on Rogallo, I've developed a Python library that provides an async client for the Gemini protocol.
+Wasat is a fully type-hinted asynchronous client library for the Gemini Protocol, relying only on `cryptography` for certificate management.
 
 => https://wasat.davep.dev/ Wasat on the web
 => wasat/index.gmi Wasat

@@ -1,3 +1,5 @@
+=> ../ Home
+# ----------------------------------------------------------------------
 # gemtext - A simple library for parsing the Gemtext markup language
 
 ## Introduction
@@ -86,5 +88,5 @@ ListItem(content='Three')
 See the main documentation for the full API.
 
 => https://gemtext.davep.dev/
-
-=> ../index.gmi Home
+# ----------------------------------------------------------------------
+=> ../ Home
