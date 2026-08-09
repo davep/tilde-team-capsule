@@ -83,6 +83,13 @@ Port79 is an async-first, fully type-hinted Python client library for the Finger
 => https://port79.davep.dev/ Port79 on the web
 => port79/index.gmi Port79
 
+### SmolServe
+
+A lightweight, multi-protocol server serving Gemini, Gopher, Finger, and Spartan protocols for local testing and documentation.
+
+=> https://smolserve.davep.dev/ SmolServe on the web
+=> smolserve/index.gmi SmolServe
+
 ### Sybaritic
 
 Sybaritic is an async-first, fully type-hinted Python client library for the Spartan Protocol.
