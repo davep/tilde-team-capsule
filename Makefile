@@ -3,7 +3,7 @@ host = tilde
 
 .PHONY: view
 view:				# View the site in a browser.
-	rogallo open $(site)/index.gmi
+	uv run smolserve --config smolserve.toml exec rogallo open gemini://localhost/
 
 .PHONY: publish
 publish:			# Publish the site.

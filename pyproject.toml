@@ -1,0 +1,9 @@
+[project]
+name = "tilde-team-capsule"
+version = "0.1.0"
+description = "Editing enviroment for my tilde.team Gemini capsule"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "smolserve>=0.0.4",
+]

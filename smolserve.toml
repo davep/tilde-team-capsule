@@ -1,0 +1,16 @@
+[general]
+host = "127.0.0.1"
+
+[gemini]
+enabled = true
+port = 1965
+root = "site/"
+
+[gopher]
+enabled = false
+
+[finger]
+enabled = false
+
+[spartan]
+enabled = false
