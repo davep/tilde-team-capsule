@@ -2,6 +2,19 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Rogallo ChangeLog
 
+## v1.7.0
+
+Released: 2026-08-10
+
+* Added simple encoding fallback so that ISO-8859-1 text files can be downloaded.
+=> https://github.com/davep/rogallo/pull/304 PR #304
+* Fixed the icon shown for Gemtext links to other Gemtext files that are linked to with a `file:` URI.
+=> https://github.com/davep/rogallo/pull/310 PR #310
+* Improved support for navigating Gemtext files found in the local filesystem.
+=> https://github.com/davep/rogallo/pull/310 PR #310
+* Added a `ViewChangeLog` command to open and view the Rogallo ChangeLog as a Gemini document.
+=> https://github.com/davep/rogallo/pull/318 PR #318
+
 ## v1.6.2
 
 Released: 2026-08-08
