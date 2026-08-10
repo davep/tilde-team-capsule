@@ -1,0 +1,33 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <blog_url>"
+    exit 1
+fi
+
+if [[ ! -x "$(command -v lowdown)" ]]; then
+    echo "Error: lowdown is not installed. Please install it and try again."
+    exit 1
+fi
+
+if [[ ! -f "$1" ]]; then
+    echo "Error: $1 is not a valid file."
+    exit 1
+fi
+
+target="$(basename "$1" .md).gmi"
+(
+    echo "=> ./ Back to index"
+    echo "# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    echo
+    grep "^title: " "$1" | head -1 | sed 's/^title: /# /g'
+    echo
+
+    lowdown -tgemini --gemini-link-roman "$1" | sed 's|^=> /|=> https://blog.davep.org/|'
+
+    echo
+    echo "# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    echo "=> ./ Back to index"
+) > "$target"
+
+### borrow-from-blog ends here
