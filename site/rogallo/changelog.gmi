@@ -1,6 +1,22 @@
-=> ../ Home
-# ----------------------------------------------------------------------
+=> ../ Back
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Rogallo ChangeLog
+
+## v1.6.2
+
+Released: 2026-08-08
+
+* Fixed a crash when viewing source of a Gemtext page that contains ANSI escape sequences.
+=> https://github.com/davep/rogallo/pull/303 PR #303
+
+## v1.6.1
+
+Released: 2026-08-08
+
+* Handle text files that contain ANSI escape sequences.
+=> https://github.com/davep/rogallo/pull/300 PR #300
+* Fixed gopher errors being detected in files that aren't gopher responses.
+=> https://github.com/davep/rogallo/pull/300 PR #300
 
 ## v1.6.0
 
@@ -341,5 +357,6 @@ Released: 2026-06-23
 Released: 2026-06-18
 
 * Initial placeholder package to test that the name is available in PyPI.
-# ----------------------------------------------------------------------
-=> ../ Home
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=> ../ Back
