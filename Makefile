@@ -5,6 +5,10 @@ host = tilde
 view:				# View the site in a browser.
 	uv run smolserve --config smolserve.toml exec rogallo open gemini://localhost/
 
+.PHONY: rogallo
+rogallo:			# Update the Rogallo ChangeLog
+	@bin/update-rogallo-changelog > $(site)/rogallo/changelog.gmi
+
 .PHONY: publish
 publish:			# Publish the site.
 	rsync -avvlHz --exclude=.DS_Store --exclude=.git --exclude=.gitignore --delete $(site)/ $(host):public_gemini
