@@ -10,6 +10,9 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 
 ## Posts
 
+=> 2026-08-07-sybaritic-a-spartan-protocol-library-for-python.gmi 2026-08-07 - Sybaritic - A Spartan protocol library for Python
+=> 2026-08-07-gemtext-v1-1-0.gmi 2026-08-07 - Gemtext v1.1.0
 => 2026-07-17-terminal-bean-soup.gmi 2026-07-17 - Terminal bean soup
+=> 2026-06-25-gemtext-a-gemtext-parsing-library-for-python.gmi 2026-06-25 - gemtext - A Gemtext parsing library for Python
 => 2026-03-10-you-get-what-you-pay-for.gmi 2026-03-10 - You get what you pay for
 => 2026-02-20-five-days-with-copilot.gmi 2026-02-20 - Five days with Copilot

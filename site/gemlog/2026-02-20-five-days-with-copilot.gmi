@@ -153,7 +153,7 @@ Something I did find unsurprising but disconcerting was Copilot’s unwillingnes
 
 A simple example of this is one time when I saw some code like this:
 
-```
+```python
 @property
 def some_property(self) -> SomeValue:
     from blogmore.utils import some_utility_function
