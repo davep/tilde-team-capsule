@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [[ ! -d ~/develop/python/rogallo/ ]]; then
+    echo "Error: rogallo repository not found in ~/develop/python/rogallo/"
+    exit 1
+fi
+
+cd ~/develop/python/rogallo/ || exit 1
+
+echo "=> ../ Back"
+echo "# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+make changelog.gmi
+echo "# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "=> ../ Back"
+
+### update-rogallo-changelog ends here
