@@ -30,7 +30,7 @@ I’ve installed and tested plenty of terminal emulators[i].
 
 => https://github.com/Textualize/textual-key-recorder [i]
 
-I’m well aware of the conventions and expectations. If <kbd>Ctrl</kbd>+<kbd>C</kbd> doesn’t quit… that is my choice. It’s not ignorance, it’s not a lack of history with this stuff, it’s a choice. For my software.
+I’m well aware of the conventions and expectations. If Ctrl+C doesn’t quit… that is my choice. It’s not ignorance, it’s not a lack of history with this stuff, it’s a choice. For my software.
 
 So when you turn up and feel the need to tell me that some function keys might not work in some terminal on some GNU/Linux box… I get it, you don’t like beans. If that’s the case, how about you either don’t make my hobby all about your tastes and how I should build my application to suit you, or how about you RTFM and configure my application so it works in your choice of terminal?
 
