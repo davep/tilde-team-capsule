@@ -2,7 +2,8 @@
 
 This directory contains some other types of files to help with testing MIME types and so on.
 
+=> test.c
+=> test.html
 => test.md
 => test.py
-=> test.c
 
