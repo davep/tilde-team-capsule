@@ -10,6 +10,7 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 
 ## Posts
 
+=> 2026-08-11-html2gemtext-a-simple-library-for-converting-html-to-gemtext.gmi 2026-08-11 - html2gemtext - A simple library for converting HTML to Gemtext
 => 2026-08-10-rogallo-v1-7-0.gmi 2026-08-10 - Rogallo v1.7.0
 => 2026-08-07-sybaritic-a-spartan-protocol-library-for-python.gmi 2026-08-07 - Sybaritic - A Spartan protocol library for Python
 => 2026-08-07-gemtext-v1-1-0.gmi 2026-08-07 - Gemtext v1.1.0
