@@ -27,6 +27,10 @@ Rogallo is a Gemini client for the terminal. Developed as a TUI application, wri
 * Persistent user configuration across sessions
 * Fully responsive layout that adjusts dynamically to terminal resizing
 
+## Screenshots
+
+=> screenshots.gmi View some example screenshots of Rogallo
+
 ## Installation
 
 ### pipx
