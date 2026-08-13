@@ -2,6 +2,25 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Rogallo ChangeLog
 
+## v1.8.0
+
+Released: 2026-08-13
+
+* Viewing `text/markdown` or `text/x-markdown` documents now uses full Markdown presentation in the viewer.
+=> https://github.com/davep/rogallo/pull/320 PR #320
+* Viewing `text/html` documents now converts the HTML to Gemtext and displays it using the Gemtext view.
+=> https://github.com/davep/rogallo/pull/320 PR #320
+* The `ToggleView` command now also toggles the Markdown and HTML views between their richer presentations and their raw source view.
+=> https://github.com/davep/rogallo/pull/320 PR #320
+* Added a `HandOffToOperatingSystem` command which hands the URI of the current document to the operating system, allowing it to be opened in whatever application is configured in the environment to handle it.
+=> https://github.com/davep/rogallo/pull/326 PR #326
+* Fixed a false positive when detecting an error response from a Gopher server.
+=> https://github.com/davep/rogallo/pull/328 PR #328
+* Added `hide_preformatted` to the configuration file. Allows you to hide specific pre-formatted blocks at specific locations.
+=> https://github.com/davep/rogallo/pull/329 PR #329
+* Added cache support for Gopher responses.
+=> https://github.com/davep/rogallo/pull/331 PR #331
+
 ## v1.7.0
 
 Released: 2026-08-10
