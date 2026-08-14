@@ -1,7 +1,7 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
-# "html2gemtext - A simple library for converting HTML to Gemtext"
+# html2gemtext - A simple library for converting HTML to Gemtext
 
 Yesterday evening, while tinkering with Rogallo[i], I managed to nerd-snipe myself pretty well. I was playing around with the idea of better presentation of some forms of text/* content. While, of course, Rogallo handles text/gemtext just fine, there are lots of other MIME types that it will show too (pretty much all within text/*). Already, if it can work out an appropriate language, the viewer will do syntax highlighting, and this includes Markdown files. However, Rogallo has a full Markdown widget built right in[ii] so I was experimenting with using that as the way to show Markdown content.
 
@@ -51,5 +51,5 @@ As for how this new library will go into Rogallo… Using it to render HTML that
 
 [1] This mouse-only problem is a recurring theme in Textual.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

@@ -1,7 +1,7 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
-# "Rogallo v1.7.0"
+# Rogallo v1.7.0
 
 I’ve just made a small release of Rogallo[i], bumping the version to v1.7.0[ii].  Most of the changes in this version aren’t very visible, but quite a few things have changed under the hood.
 
@@ -20,5 +20,5 @@ The final noticeable change is the addition of a ViewChangeLog command (AKA !vie
 
 In addition to this, I’ve made a lot of changes to some of the internals.  The class that handles the main screen of Rogallo was getting pretty large, with a lot of detail of how to handle different protocols sitting in the code. While not causing any runtime issues, it made the code increasingly bloated and untidy (and I really hate large Python files). So I’ve moved the handling of each of the protocols into their own files. This also has the benefit of making it a little easier and a little more maintainable if/when I add another protocol or two. It should also make the code more readable for anyone else looking over it.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

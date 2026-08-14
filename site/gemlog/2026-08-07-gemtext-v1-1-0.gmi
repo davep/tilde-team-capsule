@@ -1,7 +1,7 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
-# "Gemtext v1.1.0"
+# Gemtext v1.1.0
 
 I’ve released a small update to Gemtext[i]. At the moment, I’m working on adding Spartan protocol[ii] support to Rogallo[iii], and to do this I need to handle a small extension it makes to Gemtext.
 
@@ -20,5 +20,5 @@ Any code that doesn’t require this feature can turn it off with the with_spart
 
 => https://gemtext.davep.dev/gemtext/#gemtext.Gemtext(with_spartan_support) [i]
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

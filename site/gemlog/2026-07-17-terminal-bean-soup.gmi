@@ -1,7 +1,7 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
-# "Terminal bean soup"
+# Terminal bean soup
 
 I’m sure most people reading this will be familiar with the concept of “bean soup theory”. In case anyone isn’t, here’s how Wikipedia describes it[i]:
 
@@ -50,5 +50,5 @@ We get it: you don’t like bean soup. Nobody cares. Nobody asked.
 
 [3] Let’s be honest: it’s always a guy.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

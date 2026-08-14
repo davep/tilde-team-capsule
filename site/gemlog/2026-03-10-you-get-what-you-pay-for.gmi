@@ -1,5 +1,5 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
 # You get what you pay for
 
@@ -33,5 +33,5 @@ Don’t get me wrong though: you are right to be suspicious, you are right to wa
 
 …well, perhaps it’s time for you to pay it back?
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

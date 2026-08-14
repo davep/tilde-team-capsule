@@ -1,5 +1,5 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
 # Five days with Copilot
 
@@ -203,5 +203,5 @@ Also, it’ll help put some of my reading[i] into perspective.
 
 [4] Actually I’m writing this post as I always do: in Emacs. But BlogMore is in the background serving a local copy of my blog so I can check it in the browser, and rebuilding it every time I save a change.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

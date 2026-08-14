@@ -1,0 +1,24 @@
+=> ./ Back to index
+# ~~~~~
+
+# Port1900 - An async Python client library for the Nex protocol
+
+It’s that time again. Time to add another small web protocol[i] to Rogallo[ii]. This time it’s one I stumbled across a few days ago: the Nex protocol[iii]. This one is very simple and straightforward and it seemed like a shame not to support it.
+
+=> https://blog.davep.org/tag/smolweb/ [i]
+=> https://rogallo.davep.dev/ [ii]
+=> https://nightfall.city/nex/info/specification.txt [iii]
+
+So, as I have with Gemini[i], Spartan[ii], Gopher[iii] and Finger[iv], I’ve added a dedicated library for dealing with the associated URI, and to provide a client for talking to the server.
+
+=> https://wasat.davep.dev/ [i]
+=> https://sybaritic.davep.dev/ [ii]
+=> https://port70.davep.dev/ [iii]
+=> https://port79.davep.dev/ [iv]
+
+The documentation can be found on the dedicated site[i].
+
+=> https://port1900.davep.dev/ [i]
+
+# ~~~~~
+=> ./ Back to index

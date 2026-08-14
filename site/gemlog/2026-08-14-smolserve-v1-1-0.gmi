@@ -1,0 +1,22 @@
+=> ./ Back to index
+# ~~~~
+
+# SmolServe v1.1.0
+
+Currently, I’m working on adding support for the Nex Protocol[i] to Rogallo[ii].  Having Port1900[iii] as the client library, and having done the bulk of the work in Rogallo[iv], I needed things in place to be able to add some nex://-related documentation too – which is where SmolServe[v] comes in.
+
+=> https://blog.davep.org/tag/nex-protocol/ [i]
+=> https://rogallo.davep.dev/ [ii]
+=> https://blog.davep.org/2026/08/14/port1900-an-async-python-client-library-for-the-nex-protocol.html [iii]
+=> https://github.com/davep/rogallo/pull/345 [iv]
+=> https://smolserve.davep.dev/ [v]
+
+So I’ve dropped v1.1.0[i] on PyPI[ii], which adds support for running up a simple just-good-enough Nex server (although, to be fair, Nex is so simple this is probably a fully capable one just by the very nature of how trivial the protocol is).
+
+=> https://smolserve.davep.dev/changelog/#v110 [i]
+=> https://blog.davep.org/tag/pypi/ [ii]
+
+Now to get back to polishing that Rogallo PR…
+
+# ~~~~~
+=> ./ Back to index

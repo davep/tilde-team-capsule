@@ -1,7 +1,7 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
-# "gemtext - A Gemtext parsing library for Python"
+# gemtext - A Gemtext parsing library for Python
 
 I’ve just made an initial release of a new library related to my ongoing project to build my own Gemini protocol browser[i]. Initially, the code to parse the hypertext format[ii] used for Gemini sites, lived in the Rogallo codebase. But despite it being a pretty simple bit of code, I felt it could be useful for other things too. So rather than have it be buried inside a package that has a lot of other dependencies, I’ve decided to spin it out into its own little package.
 
@@ -65,5 +65,5 @@ That’s the extent of the library for the moment. I don’t see it growing too 
 
 For now though this is enough to support what Rogallo needs.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index
