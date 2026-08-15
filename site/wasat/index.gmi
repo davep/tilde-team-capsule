@@ -1,5 +1,5 @@
 => ../ Home
-# ----------------------------------------------------------------------
+# ~~~~~
 # Wasat: Async Gemini Protocol Client Library
 
 Wasat is a fully type-hinted asynchronous client library for the Gemini Protocol, relying only on `cryptography` for certificate management.
@@ -125,5 +125,5 @@ uv run wasat gemini://localhost:1965/index.gmi
 ## License
 
 MIT
-# ----------------------------------------------------------------------
+# ~~~~~
 => ../index.gmi Home

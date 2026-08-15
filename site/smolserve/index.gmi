@@ -1,5 +1,5 @@
 => ../ Home
-# ----------------------------------------------------------------------
+# ~~~~~
 # SmolServe
 
 A lightweight, multi-protocol server serving Gemini, Gopher, Finger, and Spartan protocols for local testing and documentation.
@@ -173,5 +173,5 @@ Run the test suite using `pytest`:
 ```bash
 uv run pytest
 ```
-# ----------------------------------------------------------------------
+# ~~~~~
 => ../ Home

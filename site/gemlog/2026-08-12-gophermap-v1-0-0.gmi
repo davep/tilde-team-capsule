@@ -1,5 +1,5 @@
 => ./ Back to index
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 
 # "GopherMap v1.0.0"
 
@@ -21,5 +21,5 @@ So… v1.0.0[i] has been released which adds some code to help out with this. Th
 
 With these in place, I can update Rogallo so that it’s still pretty easy-going when it comes to showing Gopher maps, but isn’t quite so laid-back when it comes to finding errors coming back from Gopher servers, and so incorrectly rendering the result.
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~
 => ./ Back to index

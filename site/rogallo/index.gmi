@@ -1,6 +1,6 @@
 => ../ Home
 => changelog.gmi Rogallo ChangeLog
-# ----------------------------------------------------------------------
+# ~~~~~
 # Rogallo
 
 ## Introduction
@@ -67,6 +67,6 @@ powershell -ExecutionPolicy ByPass -c "irm https://uvx.sh/rogallo/install.ps1 | 
 
 Once installed run the rogallo command.
 
-# ----------------------------------------------------------------------
+# ~~~~~
 => changelog.gmi Rogallo ChangeLog
 => ../ Home

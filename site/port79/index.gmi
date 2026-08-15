@@ -1,5 +1,5 @@
 => ../ Home
-# ----------------------------------------------------------------------
+# ~~~~~
 # Port79: Async Finger Protocol Client Library
 
 Port79 is an async-first, fully type-hinted Python client library for the Finger User Information Protocol (RFC 1288).
@@ -113,5 +113,5 @@ uv run port79 --help
 ## Licence
 
 MIT
-# ----------------------------------------------------------------------
+# ~~~~~
 => ../ Home

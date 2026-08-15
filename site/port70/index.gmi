@@ -1,5 +1,5 @@
 => ../ Home
-# ----------------------------------------------------------------------
+# ~~~~~
 # Port70: Async Gopher Protocol Client Library
 
 Port70 is an async-first, fully type-hinted Python client library for the Gopher protocol RFC 1436/RFC 4266.
@@ -122,5 +122,5 @@ uv run port70 --help
 ## Licence
 
 MIT
-# ----------------------------------------------------------------------
+# ~~~~~
 => ../ Home

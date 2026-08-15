@@ -1,5 +1,5 @@
 => ../ Home
-# ----------------------------------------------------------------------
+# ~~~~~
 # Sybaritic: Async Spartan Protocol Client Library
 
 Sybaritic is an async-first, fully type-hinted Python client library for the Spartan Protocol.
@@ -104,5 +104,5 @@ uv run pytest
 ## License
 
 MIT License
-# ----------------------------------------------------------------------
+# ~~~~~
 => ../ Home
