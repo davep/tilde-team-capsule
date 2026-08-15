@@ -2,6 +2,21 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Rogallo ChangeLog
 
+## v1.9.0
+
+Released: 2026-08-15
+
+* Added a development-oriented tool for taking ANSI "screenshots" of Rogallo.
+=> https://github.com/davep/rogallo/pull/336 PR #336
+* Added a `SaveSource` command to save the source of the current document.
+=> https://github.com/davep/rogallo/pull/338 PR #338
+* Fixed `ToggleView` not allowing you to view the source of a Gopher map.
+=> https://github.com/davep/rogallo/pull/340 PR #340
+* Added background cleaning up of the content cache.
+=> https://github.com/davep/rogallo/pull/344 PR #344
+* Added support for the `nex` protocol.
+=> https://github.com/davep/rogallo/pull/345 PR #345
+
 ## v1.8.0
 
 Released: 2026-08-13
