@@ -11,7 +11,7 @@ rogallo:			# Update the Rogallo ChangeLog
 
 .PHONY: gemlog
 gemlog:			# Update the Gemlog index
-	bin/update-gemlog > $(site)/gemlog/index.gmi
+	bin/update-gemlog-index > $(site)/gemlog/index.gmi
 
 .PHONY: publish
 publish:			# Publish the site.
