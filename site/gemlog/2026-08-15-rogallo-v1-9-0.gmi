@@ -1,38 +1,38 @@
 => ./ Back to index
 # ~~~~
 
-# "Rogallo v1.9.0"
+# Rogallo v1.9.0
 
-Another update to Rogallo[i], another new protocol! The main change in v1.9.0[ii] is the addition of support for the Nex protocol[iii].
+Another update to Rogallo{a}, another new protocol! The main change in v1.9.0{b} is the addition of support for the Nex protocol{c}.
 
-=> https://rogallo.davep.dev/ [i]
-=> https://rogallo.davep.dev/changelog/#v190 [ii]
-=> https://nightfall.city/nex/info/specification.txt [iii]
+=> https://rogallo.davep.dev/ {a} Rogallo
+=> https://rogallo.davep.dev/changelog/#v190 {b} v1.9.0
+=> https://nightfall.city/nex/info/specification.txt {c} Nex protocol
 
-=> https://blog.davep.org/attachments/2026/08/15/nex-in-action.webp Nex support in action
+=> https://blog.davep.org/attachments/2026/08/15/nex-in-action.webp#centre Nex support in action
 
-As with any other supported protocol[i], entering a nex:// URI into the command line[ii] will cause Rogallo to load up the response in the viewer and render it. Nex is kind of fun in that it’s almost a plain text system, by default, but the expectation is that any text/plain document that has => at the start of a line will have those lines be treated just like Gemtext links. So, in Rogallo, when you visit a page, and that page is text/plain, the result will be rendered like it’s very simplistic Gemtext that only supports links.
+As with any other supported protocol{a}, entering a `nex://` URI into the command line{b} will cause Rogallo to load up the response in the viewer and render it. Nex is kind of fun in that it's *almost* a plain text system, by default, but the expectation is that any `text/plain` document that has `=>` at the start of a line will have those lines be treated just like Gemtext links. So, in Rogallo, when you visit a page, and that page is `text/plain`, the result will be rendered like it's very simplistic Gemtext that only supports links.
 
-=> https://rogallo.davep.dev/protocols/ [i]
-=> https://rogallo.davep.dev/command-line/ [ii]
+=> https://rogallo.davep.dev/protocols/ {a} any other supported protocol
+=> https://rogallo.davep.dev/command-line/ {b} command line
 
-Also, as per the Nex specification, the MIME type of a document is worked out from the extension of the file it points at; so if you happen to get a Gemtext or Markdown file back from a nex:// URI, this will be suitably rendered.
+Also, as per the Nex specification, the MIME type of a document is worked out from the extension of the file it points at; so if you happen to get a Gemtext or Markdown file back from a `nex://` URI, this will be suitably rendered.
 
-Another addition is a SaveSource command (bound to Ctrl+s by default). As you can probably work out from the name, this will save the source of the document you’re currently viewing.
+Another addition is a `SaveSource` command (bound to Ctrl+s by default). As you can probably work out from the name, this will save the source of the document you're currently viewing.
 
-=> https://blog.davep.org/attachments/2026/08/15/saving.webp Saving the content of a page
+=> https://blog.davep.org/attachments/2026/08/15/saving.webp#centre Saving the content of a page
 
-A small housekeeping addition in this release is the cleaning of the content cache. When you start up Rogallo, in the background, any cache entries that have exceeded their time-to-live (something you can set in the configuration file) will be removed. If this results in any cache directories being left empty, they will also be removed. This should result in a nice clean cache directory that’s easier to navigate and manage, if you want to go diving into it.
+A small housekeeping addition in this release is the cleaning of the content cache. When you start up Rogallo, in the background, any cache entries that have exceeded their time-to-live (something you can set in the configuration file) will be removed. If this results in any cache directories being left empty, they will also be removed. This should result in a nice clean cache directory that's easier to navigate and manage, if you want to go diving into it.
 
-I’ve also added a small experimental development tool, mostly for myself but it might be something someone else wants to play with. I realised a few days ago that it could be fun to include screenshots of Rogallo in action in my Gemini capsule[i]. The thing is: Gemtext doesn’t allow for inline images. What it does allow for, and many clients support, is ANSI escape sequences. Meanwhile, Rogallo is a terminal-based application; its whole method of display is ANSI escape sequences. As such, it should be trivial to capture the sequences for any given screen and just include them in a Gemtext page.
+I've also added a small experimental development tool, mostly for myself but it might be something someone else wants to play with. I realised a few days ago that it could be fun to include screenshots of Rogallo in action in my Gemini capsule{a}. The thing is: Gemtext doesn't allow for inline images. What it does allow for, and many clients support, is ANSI escape sequences. Meanwhile, Rogallo is a terminal-based application; its whole method of display is ANSI escape sequences. As such, it should be trivial to capture the sequences for any given screen and just include them in a Gemtext page.
 
-=> gemini://tilde.team/~davep/rogallo/screenshots.gmi [i]
+=> gemini://tilde.team/~davep/rogallo/screenshots.gmi {a} include screenshots of Rogallo in action in my Gemini capsule
 
-I tried it out and it works a treat! So, if you happen to have ROGALLO_SCREENSHOTS in your environment and it’s set to any non-empty value, pressing Ctrl+Shift+F12 writes the current screen to ~/rogallo-screenshot.ansi.
+I tried it out and it works a treat! So, if you happen to have `ROGALLO_SCREENSHOTS` in your environment and it's set to any non-empty value, pressing Ctrl+Shift+F12 writes the current screen to `~/rogallo-screenshot.ansi`.
 
-Yes, it’s all horribly hard-coded: the key combination is hard-coded (and probably only good for more modern terminal emulators), and the name of the file is hard-coded. As I said: it’s a development tool that’s there for my own use. I might make it a little more generic in the future.
+Yes, it's all horribly hard-coded: the key combination is hard-coded (and probably only good for more modern terminal emulators), and the name of the file is hard-coded. As I said: it's a development tool that's there for my own use. I might make it a little more generic in the future.
 
-One final tweak to this release is a fix to the ToggleView command, which stopped letting you view the source of a Gopher map. That ability is now back.
+One final tweak to this release is a fix to the `ToggleView` command, which stopped letting you view the source of a Gopher map. That ability is now back.
 
 # ~~~~~
 => ./ Back to index

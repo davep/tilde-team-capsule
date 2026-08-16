@@ -1,17 +1,17 @@
 => ./ Back to index
-# ~~~~~
+# ~~~~
 
 # gemtext - A Gemtext parsing library for Python
 
-I’ve just made an initial release of a new library related to my ongoing project to build my own Gemini protocol browser[i]. Initially, the code to parse the hypertext format[ii] used for Gemini sites, lived in the Rogallo codebase. But despite it being a pretty simple bit of code, I felt it could be useful for other things too. So rather than have it be buried inside a package that has a lot of other dependencies, I’ve decided to spin it out into its own little package.
+I've just made an initial release of a new library related to my ongoing project to build my own Gemini protocol browser{a}. Initially, the code to parse the hypertext format{b} used for Gemini sites, lived in the Rogallo codebase. But despite it being a pretty simple bit of code, I felt it could be useful for other things too. So rather than have it be buried inside a package that has a lot of other dependencies, I've decided to spin it out into its own little package.
 
-=> https://blog.davep.org/tag/rogallo/ [i]
-=> https://geminiprotocol.net/docs/gemtext-specification.gmi [ii]
+=> https://blog.davep.org/tag/rogallo/ {a} ongoing project to build my own Gemini protocol browser
+=> https://geminiprotocol.net/docs/gemtext-specification.gmi {b} hypertext format
 
-So gemtext[i] v0.1.0 is now available[ii]. The library provides a single parsing class, which takes raw markup as a string and turns it into a sequence of objects, each typed for the type of line found. A very simple parsing tool might look like this:
+So `gemtext`{a} v0.1.0 is now available{b}. The library provides a single parsing class, which takes raw markup as a string and turns it into a sequence of objects, each typed for the type of line found. A very simple parsing tool might look like this:
 
-=> https://gemtext.davep.dev/ [i]
-=> https://pypi.org/project/gemtext/ [ii]
+=> https://gemtext.davep.dev/ {a} `gemtext`
+=> https://pypi.org/project/gemtext/ {b} now available
 
 ```python
 import fileinput
@@ -35,6 +35,12 @@ If fed with the following input:
 
 > This is a deep and meaningful quote
 
+ ```
+Here is some pre-formatted text.
+
+Here's some more of that text.
+ ```
+
 * One
 * Two
 * Three
@@ -53,15 +59,16 @@ Link(content="Dave's test capsule", uri='gemini://davep.gemcities.com/')
 Paragraph(content='')
 Quote(content='This is a deep and meaningful quote')
 Paragraph(content='')
+PreFormatted(content="Here is some pre-formatted text.\n\nHere's some more of that text.")
 Paragraph(content='')
 ListItem(content='One')
 ListItem(content='Two')
 ListItem(content='Three')
 ```
 
-That’s the extent of the library for the moment. I don’t see it growing too much, given how straightforward the markup language is. Perhaps one addition I might make at some point is a method of going the other way: allow collecting together each of the individual line-oriented objects[i] and getting a text document back, so providing an object-oriented interface for producing Gemtext documents.
+That's the extent of the library for the moment. I don't see it growing too much, given how straightforward the markup language is. Perhaps one addition I might make at some point is a method of going the other way: allow collecting together each of the individual line-oriented objects{a} and getting a text document back, so providing an object-oriented interface for producing Gemtext documents.
 
-=> https://gemtext.davep.dev/gemtext/ [i]
+=> https://gemtext.davep.dev/gemtext/ {a} individual line-oriented objects
 
 For now though this is enough to support what Rogallo needs.
 

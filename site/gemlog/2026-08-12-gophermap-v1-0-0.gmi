@@ -1,25 +1,25 @@
 => ./ Back to index
-# ~~~~~
+# ~~~~
 
-# "GopherMap v1.0.0"
+# GopherMap v1.0.0
 
-When I first created GopherMap[i], I made it pretty strict about what it did and didn’t consider a valid map.  Unsurprisingly, reality did what reality does and, pretty quickly, Rogallo met maps that didn’t fit with this strict approach[ii]. So I relaxed things[iii], accepting pretty much anything that even vaguely looked like a Gopher map. This solved the problem.
+When I first created GopherMap{a}, I made it pretty strict about what it did and didn't consider a valid map. Unsurprisingly, reality did what reality does and, pretty quickly, Rogallo met maps that didn't fit with this strict approach{b}. So I relaxed things{c}, accepting pretty much anything that even vaguely looked like a Gopher map. This solved the problem.
 
-=> https://blog.davep.org/2026/07/27/gophermap-a-simple-library-for-parsing-gopher-responses.html [i]
-=> https://github.com/davep/rogallo/discussions/241 [ii]
-=> https://blog.davep.org/2026/07/28/gophermap-v0-2-0.html [iii]
+=> https://blog.davep.org/2026/07/27/gophermap-a-simple-library-for-parsing-gopher-responses.html {a} first created GopherMap
+=> https://github.com/davep/rogallo/discussions/241 {b} met maps that didn't fit with this strict approach
+=> https://blog.davep.org/2026/07/28/gophermap-v0-2-0.html {c} I relaxed things
 
-However, earlier today, I ran into a page that was obviously supposed to be plain text, but was being displayed in part like a map[i]. The problem was my attempt at detecting a reply from a Gopher server that looked like it might be an error. This very relaxed approach to “this is likely some Gopher stuff, let’s accept it as such” meant that a text file that had a 3 anywhere in the first column was tripping off the “this is likely some Gopher stuff and it looks like there’s an error in there” check. The result? Treated like a Gopher map, converted into Gemtext, and displayed in the wrong way.
+However, earlier today, I ran into a page that was obviously supposed to be plain text, but was being displayed in part like a map{a}. The problem was my attempt at detecting a reply from a Gopher server that looked like it *might* be an error. This very relaxed approach to *"this is likely some Gopher stuff, let's accept it as such"* meant that a text file that had a `3` anywhere in the first column was tripping off the *"this is likely some Gopher stuff and it looks like there's an error in there"* check. The result? Treated like a Gopher map, converted into Gemtext, and displayed in the wrong way.
 
-=> https://github.com/davep/rogallo/issues/327 [i]
+=> https://github.com/davep/rogallo/issues/327 {a} I ran into a page that was obviously supposed to be plain text, but was being displayed in part like a map
 
-So… v1.0.0[i] has been released which adds some code to help out with this. The default parsing still works as before, but there’s now a strict mode which will raise exceptions if some sort of significant problem is found. On top of this are a couple of helper class methods which check if some text is likely a valid map[ii], and check if some text is likely a valid map containing an error[iii].
+So... v1.0.0{a} has been released which adds some code to help out with this. The default parsing still works as before, but there's now a strict mode which will raise exceptions if some sort of significant problem is found. On top of this are a couple of helper class methods which check if some text is likely a valid map{b}, and check if some text is likely a valid map containing an error{c}.
 
-=> https://gophermap.davep.dev/changelog/#v100 [i]
-=> https://gophermap.davep.dev/gophermap/#gophermap.GopherMap.is_likely_a_map [ii]
-=> https://gophermap.davep.dev/gophermap/#gophermap.GopherMap.is_likely_error [iii]
+=> https://gophermap.davep.dev/changelog/#v100 {a} v1.0.0
+=> https://gophermap.davep.dev/gophermap/#gophermap.GopherMap.is_likely_a_map {b} check if some text is likely a valid map
+=> https://gophermap.davep.dev/gophermap/#gophermap.GopherMap.is_likely_error {c} check if some text is likely a valid map containing an error
 
-With these in place, I can update Rogallo so that it’s still pretty easy-going when it comes to showing Gopher maps, but isn’t quite so laid-back when it comes to finding errors coming back from Gopher servers, and so incorrectly rendering the result.
+With these in place, I can update Rogallo so that it's still pretty easy-going when it comes to showing Gopher maps, but isn't quite so laid-back when it comes to finding errors coming back from Gopher servers, and so incorrectly rendering the result.
 
 # ~~~~~
 => ./ Back to index

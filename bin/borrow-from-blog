@@ -20,12 +20,11 @@ target="$(basename "$1" .md).gmi"
     echo "=> ./ Back to index"
     echo "# ~~~~"
     echo
-    grep "^title: " "$1" | head -1 | sed 's/^title: /# /g'
+    grep "^title: " "$1" | head -1 | sed 's/^title: /# /g' | sed 's/"//g'
     echo
 
-    lowdown -tgemini --gemini-link-roman "$1" | sed 's|^=> /|=> https://blog.davep.org/|'
+    uv run md2gemtext --hide-front-matter "$1" | sed 's|^=> /|=> https://blog.davep.org/|'
 
-    echo
     echo "# ~~~~~"
     echo "=> ./ Back to index"
 ) > "$target"

@@ -3,20 +3,20 @@
 
 # SmolServe v1.1.0
 
-Currently, I’m working on adding support for the Nex Protocol[i] to Rogallo[ii].  Having Port1900[iii] as the client library, and having done the bulk of the work in Rogallo[iv], I needed things in place to be able to add some nex://-related documentation too – which is where SmolServe[v] comes in.
+Currently, I'm working on adding support for the Nex Protocol{a} to Rogallo{b}. Having Port1900{c} as the client library, and having done the bulk of the work in Rogallo{d}, I needed things in place to be able to add some `nex://`-related documentation too -- which is where SmolServe{e} comes in.
 
-=> https://blog.davep.org/tag/nex-protocol/ [i]
-=> https://rogallo.davep.dev/ [ii]
-=> https://blog.davep.org/2026/08/14/port1900-an-async-python-client-library-for-the-nex-protocol.html [iii]
-=> https://github.com/davep/rogallo/pull/345 [iv]
-=> https://smolserve.davep.dev/ [v]
+=> https://blog.davep.org/tag/nex-protocol/ {a} Nex Protocol
+=> https://rogallo.davep.dev/ {b} Rogallo
+=> https://blog.davep.org/2026/08/14/port1900-an-async-python-client-library-for-the-nex-protocol.html {c} Port1900
+=> https://github.com/davep/rogallo/pull/345 {d} done the bulk of the work in Rogallo
+=> https://smolserve.davep.dev/ {e} SmolServe
 
-So I’ve dropped v1.1.0[i] on PyPI[ii], which adds support for running up a simple just-good-enough Nex server (although, to be fair, Nex is so simple this is probably a fully capable one just by the very nature of how trivial the protocol is).
+So I've dropped v1.1.0{a} on PyPI{b}, which adds support for running up a simple just-good-enough Nex server (although, to be fair, Nex is *so* simple this is probably a fully capable one just by the very nature of how trivial the protocol is).
 
-=> https://smolserve.davep.dev/changelog/#v110 [i]
-=> https://blog.davep.org/tag/pypi/ [ii]
+=> https://smolserve.davep.dev/changelog/#v110 {a} v1.1.0
+=> https://blog.davep.org/tag/pypi/ {b} PyPI
 
-Now to get back to polishing that Rogallo PR…
+Now to get back to polishing that Rogallo PR...
 
 # ~~~~~
 => ./ Back to index

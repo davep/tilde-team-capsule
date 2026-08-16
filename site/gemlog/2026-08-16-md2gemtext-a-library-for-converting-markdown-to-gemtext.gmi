@@ -1,0 +1,27 @@
+=> ./ Back to index
+# ~~~~
+
+# md2gemtext - A library for converting Markdown to Gemtext
+
+Following on from html2gemtext{a}, the inevitable has happened: I couldn't let the Markdown side of things remain unaddressed. While Rogallo{b} v1.8.0{c} added some extra rendering of Markdown to make it look more "pretty", I felt it really needed to be handled so it had more utility. Being fully navigable, even by keyboard, seems more important than pretty tables.
+
+=> https://blog.davep.org/2026/08/11/html2gemtext-a-simple-library-for-converting-html-to-gemtext.html {a} html2gemtext
+=> https://rogallo.davep.dev/ {b} Rogallo
+=> https://rogallo.davep.dev/changelog/#v180 {c} v1.8.0
+
+So md2gemtext{a} now exists as a library on PyPI{b}. I have two plans for this. While I fully intend to shake up the Markdown support in Rogallo -- either replacing the use of the Textual Markdown widget to display it, or at least giving the user a configuration option to decide how Markdown is displayed -- I also want to pay some attention to my (currently rather simple) Gemini-based log{c} and use this library to build a tool that will convert my blog{d}'s Markdown content{e} into Gemtext that looks just how I want it.
+
+=> https://md2gemtext.davep.dev/ {a} md2gemtext
+=> https://blog.davep.org/tag/pypi/ {b} PyPI
+=> gemini://tilde.team/~davep/gemlog/ {c} Gemini-based log
+=> https://blog.davep.org/ {d} my blog
+=> https://github.com/davep/davep.github.com/tree/main/content/posts {e} Markdown content
+
+As with html2gemtext, this is an early version of this library, and I'm sure there will be edge cases I'll have missed and will want to tidy up. But at the moment the results are looking promising.
+
+I'm once again in a place where I'm actually half-seriously thinking that much of what Hike{a} does could be built into Rogallo, if I were to simply add `http(s)` support there.
+
+=> https://hike.davep.dev/ {a} Hike
+
+# ~~~~~
+=> ./ Back to index
