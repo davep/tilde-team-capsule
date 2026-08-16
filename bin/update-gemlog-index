@@ -16,7 +16,7 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 
 __HEADER__
 
-for entry in site/gemlog/2*.gmi
+for entry in $(ls -1r site/gemlog/2*.gmi)
 do
     base_entry=$(basename $entry)
     entry_date=$(echo $base_entry | cut -d'-' -f1-3)
