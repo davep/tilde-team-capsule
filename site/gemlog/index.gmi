@@ -16,6 +16,7 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 => 2026-08-15-rogallo-v1-9-0.gmi 2026-08-15 - Rogallo v1.9.0
 => 2026-08-14-smolserve-v1-1-0.gmi 2026-08-14 - SmolServe v1.1.0
 => 2026-08-14-port1900-an-async-python-client-library-for-the-nex-protocol.gmi 2026-08-14 - Port1900 - An async Python client library for the Nex protocol
+=> 2026-08-13-rogallo-v1-8-0.gmi 2026-08-13 - Rogallo v1.8.0
 => 2026-08-12-gophermap-v1-0-0.gmi 2026-08-12 - GopherMap v1.0.0
 => 2026-08-11-html2gemtext-a-simple-library-for-converting-html-to-gemtext.gmi 2026-08-11 - html2gemtext - A simple library for converting HTML to Gemtext
 => 2026-08-10-rogallo-v1-7-0.gmi 2026-08-10 - Rogallo v1.7.0
