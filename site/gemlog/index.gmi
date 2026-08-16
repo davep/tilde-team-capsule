@@ -10,6 +10,7 @@ I write a *lot* more there; here I'll pull in the less day-to-day pieces.
 
 ## Posts
 
+=> 2026-08-16-bagofstuff-v1-3-0.gmi 2026-08-16 - BagOfStuff v1.3.0
 => 2026-08-15-rogallo-v1-9-0.gmi 2026-08-15 - Rogallo v1.9.0
 => 2026-08-14-smolserve-v1-1-0.gmi 2026-08-14 - SmolServe v1.1.0
 => 2026-08-14-port1900-an-async-python-client-library-for-the-nex-protocol.gmi 2026-08-14 - Port1900 - An async Python client library for the Nex protocol
