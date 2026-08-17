@@ -6,6 +6,17 @@
 - Syntax highlighted code blocks
 - Tables and more
 
+## Links
+
+Here's a link inline: https://blog.davep.org; and also [this is linked
+too](https://www.davep.org/). Not all links need to be http(s) either;
+because [here is my finger](finger://tilde.team/davep), and [here is my
+Gopher hole](gopher://tilde.team/1/~davep/).
+
+Here's all of those links inline: https://blog.davep.org;
+https://www.davep.org/; finger://tilde.team/davep;
+gopher://tilde.team/1/~davep/.
+
 ## Quotes
 
 > I must not fear.
