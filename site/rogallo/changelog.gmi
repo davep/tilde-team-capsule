@@ -2,6 +2,15 @@
 # ~~~~~
 # Rogallo ChangeLog
 
+## v1.10.0
+
+Released: 2026-08-18
+
+* Fixed confusing navigation history when quitting and later starting up again while navigated "back".
+=> https://github.com/davep/rogallo/pull/349 PR #349
+* Added support for optionally displaying Markdown as a Gemtext conversion (now the default view).
+=> https://github.com/davep/rogallo/pull/350 PR #350
+
 ## v1.9.0
 
 Released: 2026-08-15
