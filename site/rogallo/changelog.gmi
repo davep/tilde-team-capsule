@@ -2,6 +2,15 @@
 # ~~~~~
 # Rogallo ChangeLog
 
+## v1.11.0
+
+Released: 2026-08-19
+
+* Swapped the header bar out for an optional mouse-oriented toolbar of command buttons.
+=> https://github.com/davep/rogallo/pull/357 PR #357
+* Added `footer_visible` to the configuration file. Allows for hiding of the application footer if it's not needed.
+=> https://github.com/davep/rogallo/pull/359 PR #359
+
 ## v1.10.0
 
 Released: 2026-08-18
